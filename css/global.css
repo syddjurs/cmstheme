@@ -3744,13 +3744,18 @@ th.views-field-field-date {
     font-size: 15px;
 	}
 
+.view-meeting-details .field-type-file {
+	background-color: #f3f3f3;
+	padding: 10px;
+	}
+	
 .view-meeting-details span.file { 
 	clear: both;
 	min-height: 19px;
 	display: block;
 	padding-bottom: 5px;
 	padding-top: 5px;
-	}
+}
 	
 .view-meeting-details span.file img { 
 	float: left

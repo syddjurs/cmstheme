@@ -3545,23 +3545,24 @@ ul.dynatree-container ul a { padding-left: 0 }
 .agenda-item {
   border: 1px solid #cccccc;
   background-color: #fefefe;
-  padding: 0.2em;
+  padding: 10px;
 }
 .agenda-bullet-list {
-    background-image: url("../images/purplus.png");
+    background-image: url("../images/graaplus.png");
     background-position: 5px 4px;
     background-repeat: no-repeat;
     display: block;
     float: left;
     height: 20px;
     width: auto;
-    padding-left: 20px;
+    padding-left: 32px;
+    padding-top: 8px;
 }
 
 
 .agenda-bullet-list.open {
-    background-image: url("../images/purminus.png");
-    background-position: 2px 5px;
+    background-image: url("../images/graaminus.png");
+    background-position: 5px 4px;
 }
 
 .item-list li {
@@ -3730,19 +3731,37 @@ th.views-field-field-date {
 
 .view-meeting-details .agenda-bullet-list {
     color: #8b0054; 
-    border: 1px solid #CCCCCC;
+    border: none;
     width: 672px;
     height: auto;
     min-height: 25px;
     font-size: 15px;
-}
+	}
 
 .view-meeting-details .agenda-bullet-list.open {
     color: #8b0054;
     border: none;
     font-size: 15px;
-}
+	}
 
+.view-meeting-details span.file { 
+	clear: both;
+	min-height: 19px;
+	display: block;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	}
+	
+.view-meeting-details span.file img { 
+	float: left
+	}
+	
+.view-meeting-details span.file a { 
+	margin-left: 20px; 
+	display: block;
+	color: #333;
+	
+	}
 
 .view-meetings-search .views-field {
     color: #333;

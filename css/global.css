@@ -3940,3 +3940,33 @@ input.error{
 .bullet-point-send-to-friend-form.ajax-progress .throbber{
   float: right;
 }
+
+#block-feedback-form span { display: block}
+#block-feedback-form h2 { background-image: url(../images/feedbackikon189.png); width: 30px; height: 189px; color: transparent; float: left }
+
+#block-feedback-form {
+display: none;
+position: fixed;
+bottom: 60px;
+right: 0;
+overflow: hidden;
+z-index: 10;
+
+}
+#block-feedback-form form { border: none; }
+#block-feedback-form .content { float: right}
+#block-feedback-form .feedback-link {
+width: 30px;
+height: 189px;
+display: block;
+}
+
+#block-feedback-form .feedback-form {
+background-color: #970065;
+opacity: 1;
+color: #fff;
+float: left;
+max-width: 201px;
+}
+
+#block-feedback-form .feedback-form input[type=text]{ width: 200px}

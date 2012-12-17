@@ -3970,3 +3970,8 @@ max-width: 201px;
 }
 
 #block-feedback-form .feedback-form input[type=text]{ width: 200px}
+
+#feedback-submit {
+	float: right;
+	margin-bottom: 10px;
+	margin-top: 10px; }

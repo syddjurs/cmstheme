@@ -102,7 +102,7 @@
 
 .spotbox-tall-body {height: 290px; overflow: hidden; line-height: 1.1em; font-size: 12px; color: #A8A8A8; background-color: #fff; padding: 10px}
 
-.selvbetjening-block-forside { color: #B3B3B3; background-image: url(../images/selvbetjeningFORSIDE.png); padding: 10px 7px 71px 7px; margin-top: 13px; margin-left: 0px; font-size: 16px; text-transform: uppercase}
+.selvbetjening-block-forside { color: #B3B3B3; background-image: url(../images/selvbetjeningFORSIDE.png); padding: 5px 7px 51px 7px; margin-top: 13px; margin-left: 0px; font-size: 16px; text-transform: uppercase}
 .selvbetjening-block-forside p {padding-left: 25px; margin-bottom: 0px; color: #c386a8; }
 .selvbetjening-block-forside a { color: #fff; margin-bottom: 5px; font-weight: normal; font-size: 12px; text-transform: none}
 .selvbetjening-block-forside .item-list a {  }

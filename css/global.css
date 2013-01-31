@@ -3848,10 +3848,12 @@ th.views-field-field-date {
 .view-meeting-details .agenda-bullet-list {
     color: #8b0054; 
     border: 1px solid #CCCCCC;
-    width: 672px;
+    width: 630px;
     height: auto;
     min-height: 25px;
     font-size: 15px;
+    margin-right: 15px;
+    padding-right: 40px;
 }
 
 .view-meeting-details .agenda-bullet-list.open {

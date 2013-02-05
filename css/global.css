@@ -3852,8 +3852,8 @@ th.views-field-field-date {
     height: auto;
     min-height: 25px;
     font-size: 15px;
-    margin-right: 15px;
-    padding-right: 40px;
+    margin-right: 0;
+    padding-right: 43px;
 }
 
 .view-meeting-details .agenda-bullet-list.open {

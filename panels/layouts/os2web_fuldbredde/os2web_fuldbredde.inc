@@ -11,7 +11,7 @@ $plugin = array(
   'theme arguments' => array('id', 'content'),
   'admin css' => 'os2web_fuldbredde_admin.css',
   'regions' => array(
-    'top_right' => t('Top right'),
+    'top_right' => t('Top'),
     'bottom' => t('Bottom'),
   ),
 );

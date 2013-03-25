@@ -3862,6 +3862,17 @@ th.views-field-field-date {
     font-size: 15px;
 }
 
+.view-meeting-details.bullet-point-attachments .pane-title {
+	float: left;
+}
+.view-meeting-details.bullet-point-attachments .full-doc-link {
+	float:right;
+	margin: 10px 30px 0 0;
+	display: inline;
+}
+.view-meeting-details.bullet-point-attachments .views-field-title .agenda-bullet-list {
+	margin-left: 8px;
+}
 
 .view-meetings-search .views-field {
     color: #333;

@@ -1434,6 +1434,14 @@ padding-bottom: 5px
 G.selvbetjening-block-forside a { color: #fff; margin-bottom: 5px; font-weight: normal; font-size: 12px}
 */
 
+.selvbetjening-block-forside { color: #B3B3B3; background-image: url(../images/selvbetjeningFORSIDE.png); padding: 10px 7px 40px 7px; margin-top: 12px; margin-left: 0px; font-size: 16px; text-transform: uppercase}
+.selvbetjening-block-forside p {padding-left: 25px; margin-bottom: 0px; color: #c386a8; }
+.selvbetjening-block-forside a { color: #fff; margin-bottom: 5px; font-weight: normal; font-size: 12px; text-transform: none}
+.selvbetjening-block-forside .item-list a {  }
+.selvbetjening-block-forside .item-list a:hover { }
+.selvbetjening-block-forside h3 { text-align: center; display: block; margin-bottom: 12px}
+.selvbetjening-block-forside h3 a { text-transform: uppercase; font-size: 20px; margin: 4px 10px; font-weight: normal; text-align: center; display: block; padding-bottom: 25px; background-image: url(../images/gaatilinfo.png); background-repeat: no-repeat; background-position: right bottom; color: #fff; }
+
 .portal-politik-og-planer .selvbetjening-block-forside h3 a {
 	background-image: url(../images/politikogplanerTEKST.png);
 	background-position: bottom right;
@@ -2723,6 +2731,8 @@ div.breadcrumb.you-are-here {
 	clear: both;
 	background-image: url(../images/dagsordnerBAG.png);
 	background-repeat: no-repeat;
+	width: 455px;
+	margin-left: 7px;
 	height: 120px }
 
 .grid-6 .grid-3.views-row-odd { margin-left: 0;}
@@ -3900,7 +3910,7 @@ th.views-field-field-date {
 
 .view-meeting-details .view-display-id-attachment_2 td.views-field-field-qbrick-ref {
     position: absolute;
-    left: 675px;
+    left: 682px;
     margin-top: 2px;
 }
 
@@ -4027,3 +4037,5 @@ max-width: 201px;
 .view-os2web-cp-service-cp-case-search .views-submit-button{
     display: none; /* Only the last one */
 }
+=======
+>>>>>>> b3fdf8bc8403df0e4f6442c3aa133cd4555f7372

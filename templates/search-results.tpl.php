@@ -20,6 +20,8 @@
  * @see template_preprocess_search_results()
  */
 ?>
+<div class="link-aaben-indsigt">Søger du efter sager i vores sagssytem, kan du bruge vores <a href="/aaben-indsigt">Åben Indsigt</a>.</div>
+
 <?php if (arg(0) == 'node' && is_numeric(arg(1))) $nodeid = arg(1); ?>
 <?php if ($search_results): ?>
   <div class="printvenlig-side-sog"><a href="/print/<?php print $nodeid; ?>"></a></div>

@@ -99,28 +99,12 @@ function cmstheme_preprocess_region(&$vars) {
       }
     }
     if (!$dirty) {
-      $vars['content'] = drupal_render(menu_tree(variable_get('os2web_default_menu', 'navigation')));
+      $tree = menu_tree(variable_get('os2web_default_menu', 'navigation'));
+      $vars['content'] = drupal_render($tree);
     }
   }
 }
 
-/**
- * Implements hook_form_alter().
- *
- * tekst i søgefelt
- */
-function cmstheme_form_alter(&$form, &$form_state, $form_id) {
-  if ($form_id == 'search_block_form') {
-    $form['search_block_form']['#attributes']['placeholder'] = t('søg på syddjurs.dk');
-  }
-  if (isset($form_state['view']->name) && $form_state['view']->name == 'meetings_search') {
-
-    // tth@bellcom.dk ændret tekst på select i meetings-search
-    $form['committee']['#options']['All'] = t('Vælg udvalg');
-    $form['from_date']['value']['#date_format'] = 'd-m-Y';
-    $form['to_date']['value']['#date_format'] = 'd-m-Y';
-  }
-}
 
 /**
  * Implements hook_file_field_item().

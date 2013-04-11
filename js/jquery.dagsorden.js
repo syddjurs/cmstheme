@@ -10,4 +10,4 @@ $('a.agenda-bullet-list').not(this).removeClass('open');
 var top = $(this).nextAll('.agenda-item').offset().top;
 window.scrollTo(0, top -50);
 });
-}(jQuery)); 
+}(jQuery));

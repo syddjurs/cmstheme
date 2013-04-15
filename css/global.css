@@ -470,6 +470,10 @@ ul.jcarousel-list-horizontal { }
 	height: 70px;
 	overflow: hidden;
 }
+.view-id-newslist .views-row-first .news-list-right,
+.view-id-newslist .views-row-first .news-list-left {
+	height: 121px;
+}
 
 .view-id-newslist .news-list-left {
 	width: 85px;

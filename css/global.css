@@ -4018,6 +4018,15 @@ max-width: 201px;
 
 #feedback-status-message {background-color: #970065; display: block; color: #FFF; padding: 20px 10px 140px 10px}
 
+#block-feedback-form .captcha {
+
+}
+#block-feedback-form .captcha .fieldset-legend {
+	display: none;
+}
+#block-feedback-form .form-item-captcha-response .description {
+	color: white;
+}
 
 .view-os2web-cp-service-cp-case-search .form-submit {
     background: #8b0053;

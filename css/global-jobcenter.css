@@ -122,6 +122,9 @@ body {background-image: url("../images/bg.png")}
     width: auto;
     word-break: break-word;
 }
+#forside .view-spotboxe .spotbox-row-video h4 {
+    display: none;
+}
 #forside .view-spotboxe .spotbox-row {padding-left: 0px; background-image: url("../images/spot1b.png"); background-position: -1px 21px}
 
 #main-menu li a {
@@ -131,3 +134,5 @@ body {background-image: url("../images/bg.png")}
     height: 480px;
     }
 .panels-flexible-row-last {padding-top: 3px}
+
+#zone-menu .block-search-form { width: auto;}

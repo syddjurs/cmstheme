@@ -126,12 +126,12 @@ a:link, a:visited {
     background-image: url("../images/dropdownPILjobcenter.png");
 }
 .selvbetjening-block-forside .item-list {
-    height: 165px;
+
 }
 
 /* menu */
 #block-search-form .content #edit-search-block-form--2 {
-    width: 150px;
+    width: 372px !important;
 }
 #main-menu li a {
     background-image: url("../images/menu-dp.png");
@@ -208,8 +208,8 @@ a.overlayclass span.zoom-icon-tall {
 }
 
 /*
-** global-menu.css 
-** 2012 
+** global-menu.css
+** 2012
 */
 
 #region-sidebar-first ul.menuActive {

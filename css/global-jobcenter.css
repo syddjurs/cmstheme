@@ -6,10 +6,10 @@
 #forside .grid-8 { width: 650px}
 
 #forside .pane-rotating-image-view { margin-bottom: 3px}
-.page-home .billedrotator { 
-	background-image: url(../images/billedkarusel-bg.png); 
+.page-home .billedrotator {
+	background-image: url(../images/billedkarusel-bg.png);
 	margin-top: 12px;
-	margin-left: 9px; 
+	margin-left: 9px;
 	padding-left: 1px;
 	padding-top: 0px;
 	padding-bottom: 5px;
@@ -76,7 +76,7 @@
 }
 
 .page-home .region-inner.region-content-inner {
-	margin-left: 0px;   
+	margin-left: 0px;
 }
 
 
@@ -118,11 +118,15 @@ body {background-image: url("../images/bg.png")}
 
 #forside .grid-6 { width: 470px;}
 
+#forside .view-spotboxe .spotbox-row-video .video-text {
+    width: auto;
+    word-break: break-word;
+}
 #forside .view-spotboxe .spotbox-row {padding-left: 0px; background-image: url("../images/spot1b.png"); background-position: -1px 21px}
 
 #main-menu li a {
     font-size: 16px;}
-    
+
 .panels-flexible-row-forside-1 {
     height: 480px;
     }

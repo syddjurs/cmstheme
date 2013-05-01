@@ -131,3 +131,5 @@ body {background-image: url("../images/bg.png")}
     height: 480px;
     }
 .panels-flexible-row-last {padding-top: 3px}
+
+#zone-menu .block-search-form { width: auto;}

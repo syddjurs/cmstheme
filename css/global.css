@@ -976,7 +976,10 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 .telfonnummer {background-image: url(../images/telefon.png); background-repeat: no-repeat; padding-left: 35px; margin-bottom: 10px}
 .telfonnummer, .telfonnummer a { font-size: 34px;color: #777; line-height: 37px}
 
-.views-field-field-kontaktblok-callcenter p {margin-bottom: 10px}
+.views-field-field-kontaktblok-callcenter p {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
 .views-field-field-kontaktblok-callcenter {margin-top: 15px; margin-bottom: 15px}
 #region-sidebar-second.grid-3 #block-views-kontaktblok-block.block div.field-content h3 {padding: 0;}
 #region-sidebar-second.grid-3 #block-views-kontaktblok-block.block .views-field-field-kontaktblok-vis-aabnen-1 div.field-content {padding: 0 0 10px 0;}

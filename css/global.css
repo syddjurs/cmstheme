@@ -4035,6 +4035,8 @@ max-width: 201px;
 	color: white;
 }
 
+.button.os2web_cp_service_button,
+.view-os2web-cp-service-cp-case-search .button,
 .view-os2web-cp-service-cp-case-search .form-submit {
     background: #8b0053;
     color: white;
@@ -4043,6 +4045,14 @@ max-width: 201px;
     padding: 11px 19px;
     text-transform: uppercase;
     border: none;
+    margin: 10px 0;
+    font: bold 12px/1.2 Arial, sans-serif;
+}
+.button.os2web_cp_service_button,
+.view-os2web-cp-service-cp-case-search .button {
+	display: inline-block;
+}
+.view-os2web-cp-service-cp-case-search .form-submit {
     margin: 32px 0 0 10px;
 }
 

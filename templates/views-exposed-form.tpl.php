@@ -101,13 +101,13 @@ if (arg(0) == "dagsorden-og-referat" || arg(2) == 6) {
                           showOn: "both",
                           buttonImage: "' . $calIcon . '",
                           buttonImageOnly: true,
-                          dateFormat: "yy-mm-dd"
+                          dateFormat: "dd-mm-yy"
             });
             $( "#edit-to-date-value-datepicker-popup-0" ).datepicker({
                           showOn: "both",
                           buttonImage: "' . $calIcon . '",
                           buttonImageOnly: true,
-                          dateFormat: "yy-mm-dd"
+                          dateFormat: "dd-mm-yy"
             });
 
   });';

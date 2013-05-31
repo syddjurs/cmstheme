@@ -123,6 +123,8 @@ body {font-family: Arial, Helvetica, sans-serif ;background-attachment: fixed; }
 
 a:link, a:visited { color: #8b0053; text-decoration: none;}
 
+.region-content a:link, .region-sidebar-second a:link, .section-footer a:link { text-decoration: underline;}
+
 a:active,
 a:focus { outline: 1px solid #8b0053;}
 

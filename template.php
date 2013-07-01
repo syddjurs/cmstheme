@@ -1,20 +1,20 @@
 <?php
-
 /**
  * @file
- * This file is empty by default because the base theme chain (Alpha & Omega) provides
- * all the basic functionality. However, in case you wish to customize the output that Drupal
- * generates through Alpha & Omega this file is a good place to do so.
+ * This file is empty by default because the base theme chain (Alpha & Omega)
+ * provides all the basic functionality. However, in case you wish to customize
+ * the output that Drupal generates through Alpha & Omega this file is a good
+ * place to do so.
  *
- * Alpha comes with a neat solution for keeping this file as clean as possible while the code
- * for your subtheme grows. Please read the README.txt in the /preprocess and /process subfolders
- * for more information on this topic.
+ * Alpha comes with a neat solution for keeping this file as clean as possible
+ * while the code for your subtheme grows. Please read the README.txt in the
+ * /preprocess and /process subfolders for more information on this topic.
  */
 
 /**
  * Implements hook_preproces_html().
  */
-function cmstheme_preprocess_html(&$variables) {
+function os2web_core_theme_preprocess_html(&$variables) {
   $theme_path = path_to_theme();
   drupal_add_js($theme_path . '/js/script.js');
   drupal_add_js($theme_path . '/js/jquery.vegas.js');
@@ -25,7 +25,7 @@ function cmstheme_preprocess_html(&$variables) {
 /**
  * Implements hook_menu_link().
  */
-function cmstheme_menu_link(array $variables) {
+function os2web_core_theme_menu_link(array $variables) {
   $element = $variables['element'];
   $sub_menu = '';
 
@@ -45,7 +45,7 @@ function cmstheme_menu_link(array $variables) {
  *
  * tth@bellcom.dk check if there is a better way to do this...
  */
-function cmstheme_breadcrumb($variables) {
+function os2web_core_theme_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
 
   $nid = arg(1);
@@ -54,7 +54,7 @@ function cmstheme_breadcrumb($variables) {
   }
 
   if (!empty($breadcrumb)) {
-    $output = '<div class="breadcrumb you-are-here">' . t('Du er her: ') . '</div>';
+    $output = '<div class="breadcrumb you-are-here">' . t('Du er her:') . '</div>';
     $title = drupal_get_title();
     $breadcrumb[0] = l(t('Forside'), '<front>', array('attributes' => array('title' => 'Forside')));
     $breadcrumb[] = '<a href="#" title="' . $title . '">' . $title . '</a>';
@@ -78,8 +78,7 @@ function cmstheme_breadcrumb($variables) {
 /**
  * Implements hook_preprocess_region().
  */
-function cmstheme_preprocess_region(&$vars) {
-  global $user;
+function os2web_core_theme_preprocess_region(&$vars) {
   if ($vars['region'] === 'sidebar_first') {
     $dirty = FALSE;
     $ignored_blocks = array(
@@ -109,7 +108,7 @@ function cmstheme_preprocess_region(&$vars) {
 /**
  * Implements hook_file_field_item().
  */
-function cmstheme_filefield_item($file, $field) {
+function os2web_core_theme_filefield_item($file, $field) {
   if (filefield_view_access($field['field_name']) && filefield_file_listed($file, $field)) {
     // Default theming.
     return theme('filefield_file', $file);

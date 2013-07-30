@@ -134,7 +134,6 @@ a:link, a:visited {
     width: 372px !important;
 }
 #main-menu li a {
-    background-image: url("../images/menu-dp.png");
     background-position: right center;
     background-repeat: no-repeat;
     color: #666666;

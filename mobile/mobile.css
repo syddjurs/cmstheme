@@ -206,6 +206,7 @@ a {
 
 }
 
+.view-display-id-attachment_5 .views-field-title,
 table,
 .well,
 .pane-content-well .pane-content {
@@ -368,6 +369,10 @@ table,
 .view-meetings-search .views-exposed-form .views-exposed-widget .form-submit { margin-top: 0; }
 
 .view-meetings-search .views-exposed-form .views-exposed-widget.views-submit-button { float: right; }
+
+
+.view-meetings-search label { width: 28px; float: left; }
+.view-meetings-search .views-widget { float: left; }
 
 .agenda-item ul {
     list-style: none outside none;

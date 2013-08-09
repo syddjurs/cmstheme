@@ -356,9 +356,11 @@ table,
   background-repeat: no-repeat;
 }
 .view-meetings-search .form-item-committee {
-  padding-left: 40px;
+  padding-left: 68px;
 }
-
+.control-group.form-type-date-popup.form-item-from-date-value.form-item {
+margin-left: 28px;
+}
 .view-meetings-search .form-item input {
   width: 200px;
 }

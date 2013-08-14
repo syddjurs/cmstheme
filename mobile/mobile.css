@@ -409,3 +409,7 @@ a.agenda-bullet-list.open { margin-bottom: 20px; display: block; }
 .views-field.views-field-field-committee {
 font-size: 16px;
 }
+
+.views-field.views-field-field-qbrick-ref {
+  width: 20px;
+}

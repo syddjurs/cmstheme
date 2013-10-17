@@ -134,7 +134,6 @@ a:link, a:visited {
     width: 372px !important;
 }
 #main-menu li a {
-    background-image: url("../images/menu-dp.png");
     background-position: right center;
     background-repeat: no-repeat;
     color: #666666;
@@ -290,3 +289,23 @@ a.overlayclass span.zoom-icon-tall {
 }
 
 .node-type-contentpage .field-items li { list-style-image: url(../images/v-arrow-default-flat.png)}
+
+#region-sidebar-first ul.menu li.expanded.active {
+    border-bottom: 1px solid #004077;
+}
+
+.field-name-field-resume-long {
+    color: #4A4A4A;
+    font-size: 16px;
+    margin: 0 0 20px 20px;
+    font-family: "myriad-pro",Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    letter-spacing: normal;
+}
+
+#region-sidebar-first ul.menu li.expanded ul li, #region-sidebar-first ul.menu li.expanded ul li.expanded {
+  background: none;
+}
+#region-sidebar-first ul.menu li.expanded ul.menu li.expanded ul.menu li, #region-sidebar-first ul.menu li.expanded ul.menu li.expanded li.expanded ul.menu li.expanded {
+  background-image: none;
+}

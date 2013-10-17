@@ -123,6 +123,8 @@ body {font-family: Arial, Helvetica, sans-serif ;background-attachment: fixed; }
 
 a:link, a:visited { color: #8b0053; text-decoration: none;}
 
+.region-content a:link, .region-sidebar-second a:link, .section-footer a:link { text-decoration: underline;}
+
 a:active,
 a:focus { outline: 1px solid #8b0053;}
 
@@ -254,16 +256,16 @@ h2.pane-title a, h2.block-title a {
 #block-search-form #edit-submit,
 #block-search-form .form-submit,
 #block-search-form #edit-submit--3 {
-    background-image: url(../images/search-button.png);
-    width: 70px;
-    height: 68px;
-    border: none;
-    margin: 0;
-    padding: 0;
-    border-radius: 0px;
-    -moz-border-radius: 0px;
-    background-color: #FBFBFB;
-    text-indent: 99999px;
+  background-image: url(../images/search-button.png);
+  width: 70px;
+  height: 68px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  background-color: #FBFBFB;
+  text-indent: 99999px;
 }
 
 #edit-submit {
@@ -976,7 +978,10 @@ div.panel-pane.pane-views-panes.pane-megadd-news-panel-pane-1.grid-3.alpha.omega
 .telfonnummer {background-image: url(../images/telefon.png); background-repeat: no-repeat; padding-left: 35px; margin-bottom: 10px}
 .telfonnummer, .telfonnummer a { font-size: 34px;color: #777; line-height: 37px}
 
-.views-field-field-kontaktblok-callcenter p {margin-bottom: 10px}
+.views-field-field-kontaktblok-callcenter p {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
 .views-field-field-kontaktblok-callcenter {margin-top: 15px; margin-bottom: 15px}
 #region-sidebar-second.grid-3 #block-views-kontaktblok-block.block div.field-content h3 {padding: 0;}
 #region-sidebar-second.grid-3 #block-views-kontaktblok-block.block .views-field-field-kontaktblok-vis-aabnen-1 div.field-content {padding: 0 0 10px 0;}
@@ -2875,29 +2880,38 @@ line-height: 22px;
 #zone-content-wrapper.no-second-sidebar {background-image: url(../images/content-bg03-2.png);}
 
 .block-system .search-form .form-text {
-	line-height: 74px;
-	height: 74px;
-	font-size: 42px;
-	width: 600px;
-	color: #797979;
-	border: 0;
-	margin-left: 13px;
-	padding-left: 26px;
+  line-height: 50px;
+  height: 50px;
+  font-size: 32px;
+  width: 600px;
+  color: #797979;
+  margin-left: 13px;
+  padding-left: 26px;
+  border: 1px solid #D3D3D3;
+  -webkit-box-shadow: 0px 0px 5px #D8D8D8;
+  -moz-box-shadow: 0px 0px 5px #000000;
+  -o-box-shadow: 0px 0px 5px #000000;
+  -ms-box-shadow: 0px 0px 5px #000000;
+  box-shadow: 0px 0px 5px #D8D8D8;
 }
 
 .search-form #edit-submit {
-	background-image: url(../images/soegefeltLUP.png);
-	border: 0;
-	box-shadow: none;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	border-radius: 0;
-	-moz-border-radius: 0;
-	-webkit-border-radius: 0;
-	height: 74px;
-	width: 69px;
-	text-indent: -2000px;
-	background-repeat: no-repeat;
+  background-image: url(../images/soegefeltLUP.png);
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  height: 50px;
+  width: 50px;
+  text-indent: -2000px;
+  background-repeat: no-repeat;
+  background-position: -9px -17px;
+  margin-left: -5px;
+  border: 1px solid #D3D3D3;
+  -webkit-box-shadow: 0 0 5px #D8D8D8;
+  -moz-box-shadow: 0 0 5px #000000;
+  -o-box-shadow: 0 0 5px #000000;
+  -ms-box-shadow: 0 0 5px #000000;
+  box-shadow: 0 0 5px #D8D8D8;
 }
 .page-search .link-aaben-indsigt {
 	position: relative;
@@ -3196,7 +3210,6 @@ margin-left: 2px;
 }
 #block-system-main #edit-basic  {
  margin-bottom: 100px;
- margin-top: 60px;
 }
 
 #block-apachesolr-search-sort .contextual-links-wrapper {
@@ -4032,6 +4045,8 @@ max-width: 201px;
 	color: white;
 }
 
+.button.os2web_cp_service_button,
+.view-os2web-cp-service-cp-case-search .button,
 .view-os2web-cp-service-cp-case-search .form-submit {
     background: #8b0053;
     color: white;
@@ -4040,6 +4055,14 @@ max-width: 201px;
     padding: 11px 19px;
     text-transform: uppercase;
     border: none;
+    margin: 10px 0;
+    font: bold 12px/1.2 Arial, sans-serif;
+}
+.button.os2web_cp_service_button,
+.view-os2web-cp-service-cp-case-search .button {
+	display: inline-block;
+}
+.view-os2web-cp-service-cp-case-search .form-submit {
     margin: 32px 0 0 10px;
 }
 

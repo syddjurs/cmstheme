@@ -136,3 +136,16 @@ body {background-image: url("../images/bg.png")}
 .panels-flexible-row-last {padding-top: 3px}
 
 #zone-menu .block-search-form { width: auto;}
+
+#main-menu li a,
+#zone-user-wrapper, 
+#zone-header-wrapper { background-image: none;}
+
+.region-footer-first-inner, .region-footer-second-inner, .region-footer-third-inner { margin: 0; }
+
+#zone-footer {
+    min-height: 0;
+}
+.fb-like {
+    display: none;
+}

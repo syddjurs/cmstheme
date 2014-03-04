@@ -252,21 +252,6 @@ h2.pane-title a, h2.block-title a {
 	display: none
 	}
 
-#block-search-form #edit-submit,
-#block-search-form .form-submit,
-#block-search-form #edit-submit--3 {
-  background-image: url(../images/search-button.png);
-  width: 70px;
-  height: 68px;
-  border: none;
-  margin: 0;
-  padding: 0;
-  border-radius: 0px;
-  -moz-border-radius: 0px;
-  background-color: #FBFBFB;
-  text-indent: 99999px;
-}
-
 #block-search-form .form-submit {
     background-image: url(../images/search_btn.png); width: 48px; height: 43px; border: none; margin: 0; padding: 0; border-radius: 0px;  -moz-border-radius: 0px; margin-left: -4px;
     text-indent: -1100000px;

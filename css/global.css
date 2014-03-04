@@ -1856,7 +1856,7 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 .menu-minipanels .aktuelle-emner h2.pane-title, .menu-minipanels .aktuelle-emner .pane-content { padding-left: 5px}
 
 .panels-flexible-region-inside {padding: 0}
-#zone-menu {   height: 64px;}
+#zone-menu {   height: 61px;}
 
 .panels-flexible-region .pane-kulturnaut-events-lister {
     margin-left: 6px;

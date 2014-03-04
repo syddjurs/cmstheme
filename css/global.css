@@ -672,7 +672,12 @@ ul.jcarousel-list-horizontal { }
 	*/min-height: 350px;}
 
 #zone-postscript { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; }
-#zone-menu { background-image: url(../images/top_bar_bg.png); font-family: Arial, Helvetica, Tahoma, sans-serif; height: 68px; background-position: center top; }
+#zone-menu {
+  background-image: url(../images/top_bar_bg.png);
+  font-family: Arial, Helvetica, Tahoma, sans-serif;
+  height: 61px;
+  background-position: center top;
+}
 #region-user-second, #region-header-second {float: right}
 
 .block-user-menu  ul, .vertical-menu ul, .block-menu-top-menu ul { padding-left: 2px}
@@ -685,7 +690,13 @@ ul.jcarousel-list-horizontal { }
 #zone-menu #main-menu  { height: 64px; font-size: 20px; margin: 0; width: auto; border-right: 1px solid #ebebeb;}
 #main-menu {}
 #main-menu li {line-height: 64px; float: left; list-style: none}
-#main-menu li a {display: block; line-height: 64px; color: #4B4B4B; font-weight: normal }
+#main-menu li a {
+  display: block;
+  line-height: 64px;
+  color: #4B4B4B;
+  font-weight: normal;
+  outline: #4B4B4B 1px solid;
+}
 
 #breadcrumb { padding: 5px 0px; text-transform: uppercase; color: #666; margin-bottom: 5px }
 
@@ -3927,9 +3938,10 @@ th.views-field-field-date {
 
 #forside .grid-6.custom-video {margin-left: 20px; width: 470px; padding: 5px 3px;}
 
-/*#region-menu { margin: 0; padding: 0; width: 970px}
-.navigation { float: left; height: 40px; width: 485px; }
-*/
+#region-menu {
+  padding-left: 0px;
+  margin-left: 0px;
+}
 
 /* meetings view */
 .bullet-point-print-link {

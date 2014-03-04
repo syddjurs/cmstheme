@@ -189,18 +189,8 @@ ul.primary li a {
     background-image: url(../images/menu-dp-over.png);
     }
 
-#main-menu li.first {
-	border-right: 1px solid #efefef;
-	padding: 0 11px 0 0;
-}
-
-#main-menu li.last {
-	border-left: 1px solid #efefef;
-	padding: 0 0 0 22px;
-}
-
 #main-menu li {
-	padding: 0 0 0 20px;
+	padding: 0;
 }
 
 .region {
@@ -215,8 +205,9 @@ ul.menu, ul.menu li, ul.menu a {
 	}
 
 .block-search-form {
-	float: right
-	}
+	float: right;
+  margin-top: 10px;
+}
 
 
 ul.inline li {
@@ -727,17 +718,6 @@ ul.jcarousel-list-horizontal { }
   color: #9b185a;
 }
 
-
-#zone-menu .form-item-search-block-form input[type="text"] {
-	width: 399px !important;
-	padding-left: 20px !important;
-	text-transform: uppercase !important;
-	}
-
-
-#block-search-form #edit-submit {
-    background-image: url(../images/search-button.png); width: 70px; height: 68px; border: none; margin: 0; padding: 0; border-radius: 0px;  -moz-border-radius: 0px;
-    }
 #region-header-second .region-inner {padding-top: 65px; padding-left: 20px}
 #region-header-second .region-inner li { float: left; padding-right: 10px; text-transform: uppercase; font-family: "myriad-pro", Arial, Helvetica, sans-serif; font-size: 12px; list-style: none; }
 #region-header-second .region-inner li.first { margin-left: 0px }
@@ -1867,8 +1847,6 @@ BODY:first-of-type ul.as-list, x:-moz-any-link, x:default { /* Target FF 3.5+ */
 .panels-flexible-region-inside {padding: 0}
 #zone-menu {   height: 64px;}
 
-#block-search-form #edit-submit { height: 65px; width: 73px;}
-
 .panels-flexible-region .pane-kulturnaut-events-lister {
     margin-left: 6px;
 }
@@ -2793,9 +2771,6 @@ div.breadcrumb.you-are-here {
 }
 
 #main-menu li a { padding-left: 24px; padding-right: 24px}
-#main-menu li.first a { padding-left: 0px; }
-#main-menu li.last a {
-}
 
 div.qtip-cmstheme { background-image: url(../images/megadropdownBUND.png); background-position: bottom center; padding-bottom: 34px;}
 

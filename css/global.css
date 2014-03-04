@@ -695,7 +695,7 @@ ul.jcarousel-list-horizontal { }
   line-height: 64px;
   color: #4B4B4B;
   font-weight: normal;
-  outline: #4B4B4B 1px solid;
+  outline: none;
 }
 
 #breadcrumb { padding: 5px 0px; text-transform: uppercase; color: #666; margin-bottom: 5px }

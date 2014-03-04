@@ -178,12 +178,11 @@ ul.primary li a {
 	}
 
 #main-menu li a {
-	background-image: url(../images/menu-dp.png);
-	background-position: right;
-	background-repeat: no-repeat;
-	color: #666;
-	font-size: 20px;
-	}
+  color: #666;
+  font-size: 17px;
+  border-left: 1px solid #EBEBEB;
+  border-right: 1px solid #B0B0B0;
+}
 
 #main-menu li a.qtip-hover{
     color: #880054;
@@ -266,6 +265,11 @@ h2.pane-title a, h2.block-title a {
   -moz-border-radius: 0px;
   background-color: #FBFBFB;
   text-indent: 99999px;
+}
+
+#block-search-form .form-submit {
+    background-image: url(../images/search_btn.png); width: 48px; height: 43px; border: none; margin: 0; padding: 0; border-radius: 0px;  -moz-border-radius: 0px; margin-left: -4px;
+    text-indent: -1100000px;
 }
 
 #edit-submit {
@@ -692,7 +696,7 @@ ul.jcarousel-list-horizontal { }
 	*/min-height: 350px;}
 
 #zone-postscript { background-image: url(../images/cw-bg-bund.png); background-position: center; background-repeat: repeat-y; }
-#zone-menu { background-image: url(../images/menu-bag.png); font-family: "myriad-pro", Arial, Helvetica, Tahoma, sans-serif; height: 68px; background-position: center top}
+#zone-menu { background-image: url(../images/top_bar_bg.png); font-family: Arial, Helvetica, Tahoma, sans-serif; height: 68px; background-position: center top; }
 #region-user-second, #region-header-second {float: right}
 
 .block-user-menu  ul, .vertical-menu ul, .block-menu-top-menu ul { padding-left: 2px}
@@ -702,10 +706,10 @@ ul.jcarousel-list-horizontal { }
 #zone-user .menu { margin-top: 12px ; line-height: 22px}
 
 #zone-menu .region-inner, #zone-content-wrapper .region-inner {position: relative; }
-#zone-menu #main-menu  { height: 40px; font-size: 20px; margin: 0; padding-left: 23px; width: auto;  }
+#zone-menu #main-menu  { height: 64px; font-size: 20px; margin: 0; width: auto; border-right: 1px solid #ebebeb;}
 #main-menu {}
 #main-menu li {line-height: 64px; float: left; list-style: none}
-#main-menu li a {padding-left: 0px; padding-right: 24px; display: block; line-height: 64px; color: #4B4B4B; font-weight: normal }
+#main-menu li a {display: block; line-height: 64px; color: #4B4B4B; font-weight: normal }
 
 #breadcrumb { padding: 5px 0px; text-transform: uppercase; color: #666; margin-bottom: 5px }
 
@@ -728,18 +732,15 @@ ul.jcarousel-list-horizontal { }
 .omega-24-twocol-12-12 .grid-12 {width: 460px; background-color: transparent}
 
 #block-search-form .content #edit-search-block-form--2 {
-	width: 333px;
-	font-size: 20px;
-	border: none;
-	height: auto;
-	/*line-height: 40px; */
-	padding: 0 ;
-	text-transform: uppercase;
-	background: transparent;
-	/*margin: 14px 0px; */
-	width: 370px;
-	/*position: relative; */
-	color: #9a9a9a; }
+  font-size: 17px;
+  border: none;
+  height: 43px;
+  width: 262px;
+  padding: 0 0 0 10px;
+  text-transform: uppercase;
+  background-image: url(../images/search_bg.png);
+  color: #9b185a;
+}
 
 
 #zone-menu .form-item-search-block-form input[type="text"] {

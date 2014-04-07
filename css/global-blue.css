@@ -47,13 +47,6 @@ a:link, a:visited {
 .skjul-andre-sites a {
 }
 
-/* søge */
-#block-search-form #edit-submit {
-    background-image: url("../images/jobcenterSoeg.png");
-    border: 0px;
-    width: 63px;
-}
-
 /* billede slider forside plus under*/
 .custom-slideshow .views-field-body a {
     /* billede slider forside plus under*/
@@ -130,23 +123,6 @@ a:link, a:visited {
 }
 
 /* menu */
-#block-search-form .content #edit-search-block-form--2 {
-    width: 372px !important;
-}
-#main-menu li a {
-    background-position: right center;
-    background-repeat: no-repeat;
-    color: #666666;
-    margin-top: 3px;
-}
-
-#main-menu li.last {
-    border-left: 1px solid #EFEFEF;
-    padding: 0 0 0 10px;
-}
-#main-menu li {
-    padding: 0 0 0 10px;
-}
 #main-menu li a.qtip-hover {
     background-image: url("../images/dropdownPILjobcenter.png");
     background-position: 95% 50%;

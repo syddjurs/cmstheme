@@ -2848,7 +2848,14 @@ line-height: 22px;
 	padding-left: 0;
 }
 .page-search .content ul { margin-left: 20px}
-
+.page-search .block-os2web-search-clear-filters .content a {
+  padding: 20px;
+  display: block;
+}
+.page-search .block-os2web-search-clear-filters .content a:hover {
+  background: url(/profiles/os2web/themes/os2web_core_theme/images/v-arrow-default-on.png) #8B0053 no-repeat right 50%;
+  color: #FFF;
+}
 #zone-content-wrapper.no-second-sidebar {background-image: url(../images/content-bg03-2.png);}
 
 .block-system .search-form .form-text {
